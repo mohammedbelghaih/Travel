@@ -48,11 +48,7 @@
 <body style="">
 
 
-    <nav style="background-color: black;" class="navbar navbar-light">
-        <a class="navbar-brand"  style="margin-left: 5%">
-            <img src="../imgs/logo.png" style="width: 40%;" loading="lazy">
-        </a>
-    </nav>
+<?php require_once("../header/nav.php") ?>
     <div style="margin-top: 3%;">
         <center>
             <?php foreach($fetch as $pic){ ?>

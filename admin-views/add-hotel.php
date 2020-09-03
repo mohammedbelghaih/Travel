@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once("../App/Database.php");
 $con=new Database();
 $con->getpdo();
@@ -23,12 +24,7 @@ $con->getpdo();
 </head>
 <body style="">
 
-
-    <nav style="background-color: black;" class="navbar navbar-light">
-        <a class="navbar-brand"  style="margin-left: 5%">
-            <img src="../imgs/logo.png" style="width: 40%;" loading="lazy">
-        </a>
-    </nav>
+<?php require_once("../header/nav.php") ?>
     <div class="container" style="margin-top: 15%;">
         <div class="row">
             <form method="POST" class="col" enctype="multipart/form-data">

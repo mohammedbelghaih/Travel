@@ -61,7 +61,7 @@
 
         public function loginn($username, $pass){
             if(!empty($username) AND !empty($pass)){
-                $con="select * from admin where username='$username' and pass='$pass'";
+                $con="select * from admin where adminname='$username' and pass='$pass'";
                 $query= $this->getpdo()->query($con);
                 $mm= $query->rowCount();
                 if($mm>0){

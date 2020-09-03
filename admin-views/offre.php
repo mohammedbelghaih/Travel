@@ -1,6 +1,6 @@
 <?php
   session_start();
-  if(!isset($_SESSION['username'])){
+  if(!isset($_SESSION['adminname'])){
     header('location: ../login.php');
   } 
   require_once("../App/Database.php");
@@ -21,11 +21,7 @@
 </head>
 <body style="background-color: #E6E6E6;">
 
-    <nav style="background:transparent; box-shadow: none !important; background-color: black;" class="navbar navbar-light">
-        <a class="navbar-brand" href="#" style="margin-left: 5%">
-            <img src="../imgs/logo.png" style="width: 40%;" loading="lazy">
-        </a>
-    </nav>
+<?php require_once("../header/nav.php") ?>
 
     
     <section>

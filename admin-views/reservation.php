@@ -17,12 +17,7 @@
 </head>
 <body style="background-image: url(imgs/img-login/2.jpg); background-repeat: no-repeat;background-size: cover;max-width: 100%;">
 
-
-    <nav style="background:transparent; box-shadow: none !important; background-color: black;" class="navbar navbar-light">
-        <a class="navbar-brand" href="#" style="margin-left: 5%">
-            <img src="../imgs/logo.png" style="width: 40%;" loading="lazy">
-        </a>
-    </nav>
+<?php require_once("../header/nav.php") ?>
 
     <table class="table">
   <thead>
