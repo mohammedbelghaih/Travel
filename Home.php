@@ -1,5 +1,5 @@
 <?php
-session_start();
+  session_start();
   require_once("App/Database.php");
   $con=new Database();
   $sql=$con->getpdo()->query("SELECT * FROM offres ORDER BY id_o DESC LIMIT 1");
@@ -51,7 +51,6 @@ session_start();
         .rr{
             display: flex;
             justify-content: center;
-            
         }
         .cardd{
             width: 80%;
@@ -142,12 +141,36 @@ session_start();
         .foo{
           background-color: black;
         }
+
+        @media screen and (max-width: 780px) {
+          .rr{
+            display: flex;
+            flex-direction: column;
+            
+          }
+          .card{
+            margin-top: 2%;
+          }
+          .us{
+            background-image: none;
+          }
+          .rr1{
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+            
+          }
+          .package{
+            padding-top: 35%;
+          }
+
+        }
         
     </style>
 </head>
 <body>
-<?php require_once("./header/nav.php") ?>
 
+ <?php require_once("./header/nav.php") ?>
     <section style="background-image:url('imgs/9.jpg');background-repeat: no-repeat;background-size: cover;max-width: 100%;height: 500px; margin-top: -2px;">
         <div style="text-align: center;">
             <h1 style="padding-top: 8%; color: white;font-family: 'Poppins Medium'; font-weight: bold; font-style: italic;">WE MAKE AWESOME TOURS</h1>
@@ -166,7 +189,7 @@ session_start();
 </center>
     <div class="cardd text-center" style="margin-top: 5%;">
         <div class="row rr">
-            <div class="col s12 m3">
+            <div class="col s12 m3 features">
               <div class="card">
                 <center>
                 <div class="icc" style="margin-top: 3%;">
@@ -304,6 +327,7 @@ session_start();
         </div>
     </center>
 </section>
+
 <section class="package" style="margin-top: 7%;">
     <div>
         <h3>SPECIAL PACKAGE</h3>

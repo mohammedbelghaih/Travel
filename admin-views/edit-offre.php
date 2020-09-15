@@ -48,8 +48,7 @@
 </head>
 <body style="">
 
-
-<?php require_once("../header/nav.php") ?>
+    <?php require_once("../header/nav.php") ?>
     <div class="container" style="margin-top: 5%;">
         <div class="row">
             <form method="POST" class="col">

@@ -42,22 +42,24 @@
                 <p style="padding-top: 2%;color: black;font-family: 'Poppins light';">Discover the best deals for a special holiday full of adventure.<br> Discover the world with us.</p>
             </div>
         </center>
-        <div class="row justify-content-md-center" style="margin-left: 1px; margin-right: 1px; margin-top: 3%;">
-            <div class="col">
+        <div class="row justify-content-md-center log" style="margin-left: 1px; margin-right: 1px; margin-top: 3%;">
+            <div class="col-lg-auto">
                 <h5 style="margin-left: 5%;">Login :</h5>
+                <div><?php echo $con->validation() ?></div>
                 <form method="post" style="margin-top: 7%; margin-left: 5%;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">UserName :</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" name="username" style="width: 65%;">
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="username" >
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password :</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" name="pass" style="width: 65%;">
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="pass">
                     </div>
                     <button type="submit" name="submit" class="btn" style="background-color: #FE6825; color: white; font-family: 'Poppins Medium';">Login</button>
                 </form>
             </div>
-            <div class="col">
+            
+            <div class="col-sm-auto">
                 <h5 style="color: black;">Signup :</h5>
                 <form  method="post" style="margin-top: 7%;">
                     <div class="form-row">

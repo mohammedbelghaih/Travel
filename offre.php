@@ -21,6 +21,7 @@
 </head>
 <body style="background-color: #E6E6E6;">
 
+    
 <?php require_once("./header/nav.php") ?>
 
     <section style="background-image:url('imgs/1.jpg');background-repeat: no-repeat;background-size: cover;max-width: 100%;height: 500px; margin-top: -2px;">

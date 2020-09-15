@@ -17,7 +17,7 @@
 </head>
 <body style="background-image: url(imgs/img-login/2.jpg); background-repeat: no-repeat;background-size: cover;max-width: 100%;">
 
-<?php require_once("../header/nav.php") ?>
+    <?php require_once("../header/nav.php") ?>
 
     <table class="table">
   <thead>

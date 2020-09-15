@@ -14,10 +14,17 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      @media screen and (max-width: 780px) {
+        .rr img{
+          margin-top:4%;
+        }
+      }
+    </style>
     <title>VIAJE-Gallery</title>
 </head>
 <body style="background-color: #E6E6E6;">
-<?php require_once("./header/nav.php") ?>
+    <?php require_once("./header/nav.php") ?>
     <section style="background-image:url('imgs/0.jpg');background-repeat: no-repeat;background-size: cover;max-width: 100%;height: 500px; margin-top: -2px;">
         <div style="text-align: center;">
             <h1 style="padding-top: 8%; color: white;font-family: 'Poppins Medium'; font-weight: bold; font-style: italic;">WE MAKE AWESOME TOURS</h1>
@@ -35,7 +42,7 @@
 </section>
 <section>
     <div class="container" style="margin-top: 5%;">
-        <div class="row">
+        <div class="row rr">
             <div class="col-sm">
                   <img src="img/11.jpg" alt="" width="100%" height="370px">
             </div>
@@ -46,7 +53,7 @@
             <img src="img/6.jpg" alt="" width="100%" height="370px">
           </div>
         </div>
-        <div class="row" style="margin-top: 5%;">
+        <div class="row rr" style="margin-top: 5%;">
             <div class="col-sm">
                   <img src="img/3.jpg" alt="" width="100%" height="370px">
             </div>
@@ -57,7 +64,7 @@
             <img src="img/4.jpg" alt="" width="100%" height="370px">
           </div>
         </div>
-        <div class="row" style="margin-top: 5%;">
+        <div class="row rr" style="margin-top: 5%;">
             <div class="col-sm">
                   <img src="img/7.jpg" alt="" width="100%" height="370px">
             </div>

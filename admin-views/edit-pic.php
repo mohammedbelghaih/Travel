@@ -48,7 +48,7 @@
 <body style="">
 
 
-<?php require_once("../header/nav.php") ?>
+    <?php require_once("../header/nav.php") ?>
     <div style="margin-top: 3%;">
         <center>
             <?php foreach($fetch as $pic){ ?>

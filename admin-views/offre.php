@@ -21,7 +21,8 @@
 </head>
 <body style="background-color: #E6E6E6;">
 
-<?php require_once("../header/nav.php") ?>
+
+    <?php require_once("../header/nav.php") ?>
 
     
     <section>

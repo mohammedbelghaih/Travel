@@ -32,7 +32,6 @@
                         $ex=$pr->execute();
                             if($ex){
                                 echo " <script> alert('Your reservation has been successful. You will be contacted. Thank you') </script> ";
-                                header("location: offre.php");
                             }else{
                             echo "nn";
                             }
@@ -59,7 +58,8 @@
     <title>VIAJE-Booking</title>
 </head>
 <body style="background-image: url(imgs/12.jpg); background-repeat: no-repeat;background-size: auto;max-width: 100%;">
-<?php require_once("./header/nav.php") ?>
+    
+    <?php require_once("./header/nav.php") ?>
     <?php foreach($fetch as $elem){ 
         $_SESSION["hotel_id"]=$elem["id"];
         $_SESSION["offre_id"]=$elem["id_o"];

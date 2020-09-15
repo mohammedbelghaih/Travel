@@ -12,7 +12,7 @@ $con->getpdo();
          }else{
           echo 'error';
        }
-      }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +24,8 @@ $con->getpdo();
 </head>
 <body style="">
 
-<?php require_once("../header/nav.php") ?>
+
+    <?php require_once("../header/nav.php") ?>
     <div class="container" style="margin-top: 15%;">
         <div class="row">
             <form method="POST" class="col" enctype="multipart/form-data">

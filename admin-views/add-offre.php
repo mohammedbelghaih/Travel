@@ -54,8 +54,8 @@
 </head>
 <body style="">
 
-
-<?php require_once("../header/nav.php") ?>
+    </nav> -->
+    <?php require_once("../header/nav.php") ?>
     
     <div class="container" style="margin-top: 5%;">
         <div class="row">
